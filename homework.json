@@ -1,0 +1,163 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "testuser",
+      "password_hash": "$2a$10$0MnoH43L6DKv95fveR5WUuELb7n0PQD9c5ULuanoGB5wsDqxbTvly",
+      "created_at": "2026-05-07T06:23:24.741Z",
+      "updated_at": "2026-05-07T06:23:24.744Z"
+    },
+    {
+      "id": 2,
+      "username": "testuser2",
+      "password_hash": "$2a$10$98dKRhWHKnOvA2tG7juq3uwanY2JyVntCY96Z8qwnMgHWy899dicW",
+      "created_at": "2026-05-07T06:33:39.894Z",
+      "updated_at": "2026-05-07T06:33:39.894Z"
+    },
+    {
+      "id": 3,
+      "username": "test3",
+      "password_hash": "$2a$10$efC/wTsHQyQnAiodqiDzhODydPsEtcsYPFWJD2AMQP64z1Cr6gxdK",
+      "created_at": "2026-05-07T06:33:49.025Z",
+      "updated_at": "2026-05-07T06:33:49.025Z"
+    },
+    {
+      "id": 4,
+      "username": "test4",
+      "password_hash": "$2a$10$i0Lhq/G3jop1QxVEnnitA.QcLunlFq/yGD.usWLz1HrptDDLTgwBa",
+      "created_at": "2026-05-07T06:34:01.369Z",
+      "updated_at": "2026-05-07T06:34:01.370Z"
+    },
+    {
+      "id": 5,
+      "username": "test",
+      "password_hash": "$2a$10$OBkyxhT4h4TYPu9JeQOzd.hUrPu8bI.7TADj69bRIVDq6iAsDJfRW",
+      "created_at": "2026-05-07T06:38:40.148Z",
+      "updated_at": "2026-05-07T06:38:40.148Z"
+    },
+    {
+      "id": 6,
+      "username": "ocr-test",
+      "password_hash": "$2a$10$DQk.23VtFLX0zEw/ZUC26.VTbdmGxJvGYAz0NU9RzIcWTjl5gVo3O",
+      "created_at": "2026-05-11T08:48:09.106Z",
+      "updated_at": "2026-05-11T08:48:09.106Z"
+    },
+    {
+      "id": 7,
+      "username": "test1",
+      "password_hash": "$2a$10$z42jNvI92d9TEP/1WyydYeRihK/840EoavotCh08egf4Ot7NIawre",
+      "created_at": "2026-06-09T06:28:30.495Z",
+      "updated_at": "2026-06-09T06:28:30.495Z"
+    }
+  ],
+  "subjects": [
+    {
+      "id": 1,
+      "name": "语文",
+      "description": "语文作业"
+    },
+    {
+      "id": 2,
+      "name": "数学",
+      "description": "数学作业"
+    },
+    {
+      "id": 3,
+      "name": "英语",
+      "description": "英语作业"
+    },
+    {
+      "id": 4,
+      "name": "物理",
+      "description": "物理作业"
+    },
+    {
+      "id": 5,
+      "name": "化学",
+      "description": "化学作业"
+    }
+  ],
+  "homework": [
+    {
+      "id": 1,
+      "user_id": 5,
+      "subject_id": 2,
+      "title": "123",
+      "content": "123",
+      "status": "已完成",
+      "deadline": "2026-05-07T10:00:00.000Z",
+      "start_time": "2026-05-07T09:30:51.922Z",
+      "complete_time": "2026-05-07T09:30:57.095Z",
+      "created_at": "2026-05-07T08:00:40.159Z",
+      "updated_at": "2026-05-07T09:30:57.095Z"
+    },
+    {
+      "id": 2,
+      "user_id": 4,
+      "subject_id": 1,
+      "title": "????",
+      "content": "????",
+      "status": "未开始",
+      "deadline": null,
+      "start_time": null,
+      "complete_time": null,
+      "created_at": "2026-05-07T08:11:17.305Z",
+      "updated_at": "2026-05-07T08:11:17.305Z"
+    },
+    {
+      "id": 3,
+      "user_id": 5,
+      "subject_id": 1,
+      "title": "222",
+      "content": "222",
+      "status": "进行中",
+      "deadline": "2026-05-07T09:30:00.000Z",
+      "start_time": "2026-05-07T09:32:10.188Z",
+      "complete_time": null,
+      "created_at": "2026-05-07T09:13:52.161Z",
+      "updated_at": "2026-05-07T09:32:10.188Z"
+    },
+    {
+      "id": 4,
+      "user_id": 5,
+      "subject_id": 4,
+      "title": "567567",
+      "content": "1231231231231",
+      "status": "未开始",
+      "deadline": "2026-05-07T16:00:00.000Z",
+      "start_time": null,
+      "complete_time": null,
+      "created_at": "2026-05-07T09:32:04.223Z",
+      "updated_at": "2026-05-07T09:32:04.223Z"
+    },
+    {
+      "id": 6,
+      "user_id": 5,
+      "subject_id": 5,
+      "title": "化学测试 (2026-05-08)",
+      "content": "123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123",
+      "status": "未开始",
+      "deadline": "2026-05-08",
+      "start_time": null,
+      "complete_time": null,
+      "created_at": "2026-05-08T05:42:35.528Z",
+      "updated_at": "2026-05-08T05:42:35.528Z"
+    },
+    {
+      "id": 7,
+      "user_id": 5,
+      "subject_id": 5,
+      "title": "化学测试 (2026-05-09)",
+      "content": "123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123123",
+      "status": "未开始",
+      "deadline": "2026-05-09",
+      "start_time": null,
+      "complete_time": null,
+      "created_at": "2026-05-08T05:42:35.529Z",
+      "updated_at": "2026-05-08T05:42:35.529Z"
+    }
+  ],
+  "nextUserId": 8,
+  "nextSubjectId": 6,
+  "nextHomeworkId": 8
+}

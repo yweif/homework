@@ -1,0 +1,11 @@
+node_modules/
+.env
+backend/uploads/
+backend/*.log
+backend/server.err
+*.log
+dist/
+frontend/dist/
+.DS_Store
+*.local
+test-pw.js
